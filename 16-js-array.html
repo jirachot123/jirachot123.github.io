@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let car = ["honda","supar","yamaha","pcx","Nmax"]
+        // document.while (car[0] + "<br>")
+        // document.while (car[1] + "<br>")
+        // document.while (car[2] + "<br>")
+        // for (let i = 0; i < car.length; i++){
+        //     document.write(car[i] + "<br>")
+          for (let in car){
+              document.write(car[i] + "<br>")   
+        //  for (let i of car){
+        //     document.write(i + "<br>")
+        }
+    </script>
+</body>
+      <body>
+          <table border="10" style="border-collapse: collapse">
+              <tr>
+                  
+                  
+              
+              <th>ลำดับที่</th>
+              <th>ยี่ห้อรถ</th>
+              <script>
+                  let n = 0
+                  for (let i in car){
+                      n += 1
+                      document.write("<tr>")
+                      document.write("<td>" + i + "</td>")
+                      document.write("<td>" + car[i] + "</td>")
+                      document.write("</tr>")
+                  }
+              </script>
+              </tr>
+          </table>
+      </body>  
+</html>
